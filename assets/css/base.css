@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+:root {
+    --color-primary: #103178;
+    --color-second: #FFC800;
+    --color-background: #F0F2F5;
+    --color-text: #5B6C8F;
+    --font:'Inria Serif', serif;
+} 
+
+body {
+    font-family: var(--font);
+    font-size: 17.6px;
+    color: var(--color-text);
+}
+
+ul li {
+    list-style-type:none ;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.button {
+    border-radius: 100px;
+    padding: 12px 32px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+.button-one {
+    background-color: var(--color-primary);
+    color: white;
+    border: 1.5px solid var(--color-primary);
+    transition: all 0.3s;
+
+}
+.button-one:hover {
+    background-color:white ;
+    color:var(--color-primary) ;
+    border: 1.5px solid var(--color-primary);
+}
+.button-two {
+    background-color: var(--color-second);
+    color: white;
+    border: 1.5px solid var(--color-second);
+    transition: all 0.3s;
+
+}
+
+.button-two:hover {
+    background-color: white;
+    color:var(--color-second) ;
+    border: 1.5px solid var(--color-second);
+}
+
+.button-three {
+    background-color: #13a05d;
+    color: white;
+    border: 1.5px solid  #13a05d;
+    transition: all 0.3s;
+}
+
+.button-three:hover {
+    background-color: white;
+    color: #13a05d ;
+    border: 1.5px solid  #13a05d;
+}
+
+h1 {
+    font-size: 60.8px;
+    color: var(--color-primary);
+    font-weight: 600;
+}
+h2 {
+    font-size: 48px;
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 32px;
+    color: var(--color-primary);
+    font-weight: 600;
+
+}
+
+h5 {
+    font-size: 22.4px;
+    color: var(--color-primary);
+    font-weight: 600;
+}
+
+h6 {
+    font-size: 17.6px;
+    color: var(--color-primary);
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0px 15px;
+    }
+}
